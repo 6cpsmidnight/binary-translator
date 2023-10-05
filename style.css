@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+main {
+    text-align: right;
+    position: absolute;
+    max-width: 33vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1,
+h2,
+#input,
+#output {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#input,
+#output {
+    color: #000;
+    background-color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+    width: 33vw;
+    height: 20vh;
+    resize: none;
+}
+
+#input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inputTxt {
+    width: 33vw;
+}
+
+#output {
+    margin-bottom: 5px;
+}
+
+main>div {
+    display: flex;
+    align-items: center;
+    width: 33vw;
+}
+
+#copyAlert {
+    font-family: monospace;
+    font-size: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#copyBinaryBtn {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 100%;
+    transform: translateX(-40px);
+}
